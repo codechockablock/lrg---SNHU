@@ -4,8 +4,38 @@ This repository catalogs artifacts from my Computer Science coursework at Southe
 
 **Contents**
 
+- [CS 250: Software Development Lifecycle](#cs-250-software-development-lifecycle) — SNHU Travel, Agile/Scrum Sprint Review and Retrospective
 - [CS 230: Software Design and Architecture](#cs-230-software-design-and-architecture) — The Gaming Room, *Draw It or Lose It*
 - [CS 210: Programming Languages](#cs-210-programming-languages) — Pike Creek Inventory Health Analyzer (C++)
+
+---
+
+## CS 250: Software Development Lifecycle
+
+**Artifact: SNHU Travel Sprint Review and Retrospective**
+
+- [Sprint Review and Retrospective (PDF)](CS250/SNHU-Travel-Sprint-Review-and-Retrospective.pdf) — viewable in the browser
+- [Sprint Review and Retrospective (DOCX)](CS250/SNHU-Travel-Sprint-Review-and-Retrospective.docx) — original file
+
+This deliverable pulls together the Agile and Scrum practices I applied on the SNHU Travel project, where I worked across the Scrum Master, Product Owner, developer, and tester roles to build a destination recommendation tool.
+
+### How I interpret user needs and implement them, and how user stories help
+
+I interpret user needs by translating them into something checkable before I write any code. On SNHU Travel I turned focus-group input into six prioritized user stories written in the "As a user, I want a task, so that I reach a goal" format. That format keeps the focus on the value to the person using the software rather than on the feature in isolation. A story like Top Five Destinations only became real once it had acceptance criteria attached: an ordered list showing a name, description, picture, and package link for each destination. Those criteria are the hinge between a need and a program, because they define what "done" looks like in a way the developer can build to and the tester can verify against. When the application shipped with exactly those attributes for Paris, Bali, Santorini, Machu Picchu, and the Serengeti, I knew the user's need had actually been met and not just approximated.
+
+User stories help most because they are small and independent. When the requirements changed, I did not have to rethink the whole product, only the stories the change touched. Sizing each story large, medium, or small also let the team prioritize honestly and commit to what it could finish, instead of promising everything and delivering a rushed version of it.
+
+### How I approach developing programs, and the Agile processes I want to carry forward
+
+I approach development iteratively. Rather than trying to specify everything up front, I build in small slices, put working software in front of stakeholders early, and expect the requirements to move. SNHU Travel proved why that is worth keeping: the project changed direction twice, first when results moved from a scrollable list to a slideshow with Previous and Next buttons, and again when management refocused the whole tool on detox and wellness travel. Because the work was sliced into small stories and the destination content lived in a separate data structure from the code that drew the screen, the second pivot became a re-theme instead of a rebuild, and we adapted without moving the deadline.
+
+The Agile processes I most want to carry into future work are the ones that keep work visible and tied to value. I want to keep a prioritized backlog with real acceptance criteria as the single source of truth, use a task board as an information radiator so anyone can see status at a glance, and protect the regular Scrum events: the Daily Scrum to surface blockers, refinement and planning to turn vague stories into buildable ones, the review to show working software, and the retrospective to improve the process itself. The lesson I would apply more strictly is that Agile only pays off when communication and acceptance criteria stay disciplined. Where they slipped on my project, progress stalled, so I want to keep questions specific and decisions written down.
+
+### What it means to be a good team member in software development
+
+Being a good team member means making your work legible to everyone who depends on it. On SNHU Travel the project worked because the roles connected: an item that started as an acceptance criterion became a verification step for the tester and then a build requirement for the developer. Good teammates keep that chain intact by communicating in a way that respects other people's time. When I needed clarification, I sent numbered, closed questions tied to a specific Scrum event and a clear deadline, so a busy stakeholder could answer quickly and the decisions were documented. When I started the wellness pivot, I wrote to both the Product Owner and the tester at once so the developer and tester would not end up building and checking two different versions of the same feature.
+
+It also means contributing to an environment where people feel safe to speak up. The daily stand-up only works if someone is willing to admit they are blocked, and that willingness depends on psychological safety. A good team member helps create that safety by raising their own blockers honestly, keeping commitments to shared deadlines, and treating change as expected rather than as someone's fault. In short, being a good team member is less about individual output and more about keeping the work visible, the communication clear, and the team able to adapt together.
 
 ---
 
